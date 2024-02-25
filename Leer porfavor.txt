@@ -1,0 +1,14 @@
+Si quiere probar mi proyecto:
+
+Al descargarlo y luego abrirlo en el editor de codigo que este usando (En mi caso es VS CODE) por favor eliminar y volver
+a descargar los modulos del node ya que no me dejo pasarlos completos y sin esto no puede inicar el servidor.
+
+1. Elimine la carpeta "node_modules"
+
+2. Abra la terminal del editor del codigo.
+
+3. En la direccion en donde esta la carpeta del proyecto ingrese: "npm install" para poder descargar otra vez la carpeta.
+
+4. Por ultimo pruebe a iniciar el servidor "npm start".
+
+5. GRACIAS.
