@@ -1,0 +1,38 @@
+.App { /*Se llama al className .App para insertarle un estilo*/
+  text-align: center; /*lo que este dentro de esta clase se centrara (Texto e Imagen)*/
+}
+
+.App-logo {     /*Se llama a .App-logo para agregarle parametros a esa clase*/  
+  height: 40vmin; 
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo { /*Se le añaden animaciones a la clase .App-logo*/
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header { /*Se llama a la clase .App-header que cubre todo lo que se ve en la interfaz*/
+  background-color: #282c34; /*color del fondo de la pagina*/
+  min-height: 100vh; /*Hace que cubra el 100% de la pagina con el color anterior*/
+  display: flex;
+  flex-direction: column; /*Todo lo demas se usa para centrar la interfaz (texto e imagen dentro del bloque)*/
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /*Color de las letras*/
+}
+
+.App-link {
+  color: #850f36; /*Se llama a la classe .App-Link para que el link que esta en pantalla se muestre de otro color (Azul)*/
+}
+
+@keyframes App-logo-spin { /*Esta funcion hace que el logo que se muestra en pantalla tenga una animacion y en este caso gire*/
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

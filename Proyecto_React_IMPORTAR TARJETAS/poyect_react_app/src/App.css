@@ -1,0 +1,67 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+
+@keyframes App-logo-spin { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App{
+  display: flex;
+}
+.titulo{
+
+  margin-left: 35%;
+  margin-top: -10%;
+  min-width: 104%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.App-logo{
+
+  margin-left: 166%;
+  margin-top: 10%;
+
+}
+
+.card{
+  display: flex;
+  margin-top: 196%;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: -110%;
+}
+
+.cubo-tarjeta{
+  margin-top: 25%;
+  margin-left: -16%;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(16, 28, 199);
+  display: inline-block;
+}
+
+.tarjet2{
+  border:solid;
+  background-image: url(/src/componentes/imagenes/Fondo.Madera.33.jpg);
+  margin-left: 4%;
+  display:inline-table;
+  border-radius: 10%;
+}
+.tarjet{
+  margin-left: -100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
